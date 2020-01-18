@@ -3,9 +3,9 @@
   "RepositoryDescription": "A collection of servers using a version of ServerHub compatible with Multiplayer Lite",
   "Servers": [
       {
-          "ServerName": "Pantie's Server",
+          "ServerName": "CN_河北电信-四通八达",
           "ServerAddress": "pantie.xicp.net",
-          "ServerPort": 3000
+          "ServerPort": 3700
       }
   ]
 }
