@@ -1,46 +1,42 @@
 {
-  "$schema": "https://json-schema.org/draft-04/schema",
+  "$schema": "https://json-schema.org/draft-03/schema",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": true,
   "properties": {
     "RepositoryName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "RepositoryDescription": {
-      "type": "string"
+      "type": "string",
     },
     "Servers": {
       "type": "array",
+      "required": true,
       "items": {
         "$ref": "#/definitions/Server"
       }
     }
   },
-  "required": [
-    "RepositoryName",
-    "Servers"
-  ],
   "definitions": {
     "Server": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "ServerName": {
-          "type": "string"
+          "type": "string",
         },
         "ServerAddress": {
-          "type": "string"
+          "type": "string",
+          "required": true
         },
         "ServerPort": {
           "type": "integer",
           "minimum": 1,
-          "maximum": 65535
+          "maximum": 65535,
+          "required": true
         }
       },
-      "required": [
-        "ServerAddress",
-        "ServerPort"
-      ],
       "title": "Server"
     }
   }
