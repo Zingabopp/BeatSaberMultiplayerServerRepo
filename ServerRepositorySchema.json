@@ -1,51 +1,47 @@
 {
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "$ref": "#/definitions/TopLevel",
-    "definitions": {
-        "TopLevel": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "RepositoryName": {
-                    "type": "string"
-                },
-                "RepositoryDescription": {
-                    "type": "string"
-                },
-                "Servers": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/Server"
-                    }
-                }
-            },
-            "required": [
-                "RepositoryName",
-                "Servers"
-            ],
-            "title": "TopLevel"
-        },
-        "Server": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "ServerName": {
-                    "type": "string"
-                },
-                "ServerAddress": {
-                    "type": "string"
-                },
-                "ServerPort": {
-                    "type": "integer",
-                    "minimum": 1,
-                    "maximum": 65535
-                }
-            },
-            "required": [
-                "ServerAddress",
-                "ServerPort"
-            ],
-            "title": "Server"
-        }
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "RepositoryName": {
+      "type": "string"
+    },
+    "RepositoryDescription": {
+      "type": "string"
+    },
+    "Servers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Server"
+      }
     }
+  },
+  "required": [
+    "RepositoryName",
+    "Servers"
+  ],
+  "definitions": {
+    "Server": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ServerName": {
+          "type": "string"
+        },
+        "ServerAddress": {
+          "type": "string"
+        },
+        "ServerPort": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65535
+        }
+      },
+      "required": [
+        "ServerAddress",
+        "ServerPort"
+      ],
+      "title": "Server"
+    }
+  }
 }
