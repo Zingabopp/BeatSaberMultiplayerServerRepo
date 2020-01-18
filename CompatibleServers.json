@@ -1,0 +1,11 @@
+{
+  "RepositoryName": "MultiplayerLiteServers",
+  "RepositoryDescription": "A collection of servers using a version of ServerHub compatible with Multiplayer Lite",
+  "Servers": [
+      {
+          "ServerName": "Pantie's Server",
+          "ServerAddress": "pantie.xicp.net",
+          "ServerPort": 3000
+      }
+  ]
+}
