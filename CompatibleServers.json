@@ -8,7 +8,7 @@
           "ServerPort": 3700
       },
       {
-          "ServerName": "QuestBoard,
+          "ServerName": "QuestBoard",
           "ServerAddress": "www.questboard.xyz",
           "ServerPort": 3700
       }
