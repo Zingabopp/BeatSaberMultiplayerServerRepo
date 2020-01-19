@@ -22,6 +22,11 @@
           "ServerName": "QuestBoard",
           "ServerAddress": "www.questboard.xyz",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "Korty's Server",
+          "ServerAddress": "bs.useast.kortyservers.xyz",
+          "ServerPort": 3700
       }
   ]
 }
