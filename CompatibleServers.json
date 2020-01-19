@@ -42,6 +42,11 @@
           "ServerName": "hub.tgcfabian.tk",
           "ServerAddress": "hub.tgcfabian.tk",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "Senko Host",
+          "ServerAddress": "hub.senko.host",
+          "ServerPort": 3700
       }
   ]
 }
