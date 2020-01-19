@@ -6,6 +6,11 @@
           "ServerName": "CN_河北电信-四通八达",
           "ServerAddress": "pantie.xicp.net",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "QuestBoard,
+          "ServerAddress": "www.questboard.xyz",
+          "ServerPort": 3700
       }
   ]
 }
