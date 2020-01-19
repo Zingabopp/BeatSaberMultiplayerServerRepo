@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Zingabopp/BeatSaberMultiplayerServerRepo/master/ServerRepositorySchema.json",
   "RepositoryName": "MultiplayerLiteServers",
   "RepositoryDescription": "A collection of servers using a version of ServerHub compatible with Multiplayer Lite",
   "Servers": [
