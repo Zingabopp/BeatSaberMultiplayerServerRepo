@@ -37,6 +37,11 @@
           "ServerName": "CN_河南电信_张慧明",
           "ServerAddress": "bs-zhm.tk",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "hub.tgcfabian.tk",
+          "ServerAddress": "hub.tgcfabian.tk",
+          "ServerPort": 3700
       }
   ]
 }
