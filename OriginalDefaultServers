@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Zingabopp/BeatSaberMultiplayerServerRepo/master/ServerRepositorySchema.json",
+  "RepositoryName": "OriginalDefaultServers",
+  "RepositoryDescription": "The original set of servers included with BeatSaberMultiplayer",
+  "Servers": [
+      {
+          "ServerName": "hub.assistant.moe",
+          "ServerAddress": "hub.assistant.moe",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "hub.auros.red",
+          "ServerAddress": "hub.auros.red",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "treasurehunters.nz",
+          "ServerAddress": "treasurehunters.nz",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "beatsaber.networkauditor.org",
+          "ServerAddress": "beatsaber.networkauditor.org",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "hub.just-skill.ru",
+          "ServerAddress": "hub.just-skill.ru",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "hub.tgcfabian.tk",
+          "ServerAddress": "hub.tgcfabian.tk",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "hub.traber-info.de",
+          "ServerAddress": "hub.traber-info.de",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "bs.tigersserver.xyz",
+          "ServerAddress": "bs.tigersserver.xyz",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "bbbear-wgzeyu.gtxcn.com",
+          "ServerAddress": "bbbear-wgzeyu.gtxcn.com",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "bs-zhm.tk",
+          "ServerAddress": "bs-zhm.tk",
+          "ServerPort": 3700
+      }
+  ]
+}
