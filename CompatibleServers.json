@@ -4,6 +4,16 @@
   "RepositoryDescription": "A collection of servers using a version of ServerHub compatible with Multiplayer Lite",
   "Servers": [
       {
+          "ServerName": "Tiger's Hub",
+          "ServerAddress": "bs.tigersserver.xyz",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "TreasureHunters.nz",
+          "ServerAddress": "treasurehunters.nz",
+          "ServerPort": 3700
+      },
+      {
           "ServerName": "CN_河北电信-四通八达",
           "ServerAddress": "pantie.xicp.net",
           "ServerPort": 3700
