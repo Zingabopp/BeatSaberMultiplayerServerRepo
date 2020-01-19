@@ -27,6 +27,16 @@
           "ServerName": "Korty's Server",
           "ServerAddress": "bs.useast.kortyservers.xyz",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "CN_河北联通_WGzeyu",
+          "ServerAddress": "bbbear-wgzeyu.gtxcn.com",
+          "ServerPort": 3700
+      },
+      {
+          "ServerName": "CN_河南电信_张慧明",
+          "ServerAddress": "bs-zhm.tk",
+          "ServerPort": 3700
       }
   ]
 }
