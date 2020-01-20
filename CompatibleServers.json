@@ -47,6 +47,11 @@
           "ServerName": "Senko Host",
           "ServerAddress": "hub.senko.host",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "Just Skill",
+          "ServerAddress": "hub.just-skill.ru",
+          "ServerPort": 3700
       }
   ]
 }
