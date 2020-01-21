@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-Server Name: 
-Server Address:
-Server Port: 
+* Server Name: 
+* Server Address: 
+* Server Port: 
 
 *Optional*
 Server Description (Location/Specs/whatever):
