@@ -1,7 +1,7 @@
 ---
 name: Server Addition Request
 about: Template for requesting the addition of a server.
-title: "[ServerAddition]"
+title: "[ServerAddition] "
 labels: ''
 assignees: ''
 
