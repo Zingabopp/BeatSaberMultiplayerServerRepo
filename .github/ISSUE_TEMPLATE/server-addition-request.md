@@ -12,4 +12,4 @@ assignees: ''
 * Server Port: 
 
 *Optional*
-Server Description (Location/Specs/whatever):
+Server Description (Location/Specs/whatever): 
