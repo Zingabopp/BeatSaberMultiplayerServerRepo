@@ -52,6 +52,11 @@
           "ServerName": "Just Skill",
           "ServerAddress": "hub.just-skill.ru",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "Bluenoes Hub",
+          "ServerAddress": "bluenoes.ddns.net",
+          "ServerPort": 3700
       }
   ]
 }
