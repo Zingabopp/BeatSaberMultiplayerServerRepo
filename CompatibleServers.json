@@ -29,12 +29,12 @@
           "ServerPort": 3700
       },
       {
-          "ServerName": "CN_河北联通_WGzeyu",
+          "ServerName": "CN_河北联通-WGzeyu",
           "ServerAddress": "bbbear-wgzeyu.gtxcn.com",
           "ServerPort": 3700
       },
       {
-          "ServerName": "CN_河南电信_张慧明",
+          "ServerName": "CN_河南电信-张慧明",
           "ServerAddress": "bs-zhm.tk",
           "ServerPort": 3700
       },
@@ -62,6 +62,11 @@
           "ServerName": "JBSTheGamer's Server",
           "ServerAddress": "45.17.102.196",
           "ServerPort": 3700
+      },
+      {
+          "ServerName": "JP_日本东京-WGzeyu",
+          "ServerAddress": "jp-sakurafrp.gtxcn.com",
+          "ServerPort": 37000
       }
   ]
 }
