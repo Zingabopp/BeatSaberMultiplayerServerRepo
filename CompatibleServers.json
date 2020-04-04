@@ -4,6 +4,11 @@
   "RepositoryDescription": "A collection of servers using a version of ServerHub compatible with Multiplayer Lite",
   "Servers": [
       {
+          "ServerName": "Vinyl Scratch's hub",
+          "ServerAddress": "91.228.155.183",
+          "ServerPort": 3700
+      },
+      {
           "ServerName": "Tiger's Hub",
           "ServerAddress": "bs.tigersserver.xyz",
           "ServerPort": 3700
