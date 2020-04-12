@@ -1,0 +1,20 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Validation
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: ./ServerRepositorySchema.json
+          INPUT_JSONS: ./CompatibleServers.json
