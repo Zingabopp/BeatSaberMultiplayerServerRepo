@@ -24,7 +24,7 @@
       "additionalProperties": false,
       "properties": {
         "ServerName": {
-          "type": "string",
+          "type": "string"
         },
         "ServerAddress": {
           "type": "string",
