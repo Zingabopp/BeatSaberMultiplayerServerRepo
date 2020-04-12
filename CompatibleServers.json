@@ -3,6 +3,16 @@
   "RepositoryName": "MultiplayerLiteServers",
   "RepositoryDescription": "A collection of servers using a version of ServerHub compatible with Multiplayer Lite",
   "Servers": [
+	  {
+          "ServerName": "Oceania Server Group - Sydney | BS",
+          "ServerAddress": "osgs.ddns.net",
+          "ServerPort": 3700
+      },
+	  {
+          "ServerName": "Oceania Server Group - SunCoast | BS",
+          "ServerAddress": "osgsc.ddns.net",
+          "ServerPort": 3700
+      },
       {
           "ServerName": "Vinyl Scratch's hub",
           "ServerAddress": "91.228.155.183",
