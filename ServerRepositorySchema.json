@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/Zingabopp/BeatSaberMultiplayerServerRepo/master/ServerRepositorySchema.json",
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://json-schema.org/draft-04/schema",
   "type": "object",
   "additionalProperties": true,
   "properties": {
@@ -9,7 +9,8 @@
       "required": true
     },
     "RepositoryDescription": {
-      "type": "string"
+      "type": "string",
+	  "required": false
     },
     "Servers": {
       "type": "array",
