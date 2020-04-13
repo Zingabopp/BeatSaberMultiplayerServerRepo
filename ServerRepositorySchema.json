@@ -1,26 +1,28 @@
 {
-  "$schema": "https://json-schema.org/draft-04/schema",
-  "$id": "https://json-schema.org/draft-04/schema",
-  "type": "object",
-  "additionalProperties": true,
-  "properties": {
-    "RepositoryName": {
-      "type": "string",
-      "required": true
-    },
-    "RepositoryDescription": {
-      "type": "string",
-	  "required": false
-    },
-    "Servers": {
-      "type": "array",
-      "required": true,
-      "items": {
-        "$ref": "#/definitions/Server"
-      }
-    }
-  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "./ServerRepositorySchema.json",
+  "$ref": "#/definitions/ServerRepository",
   "definitions": {
+    "ServerRepository": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "RepositoryName": {
+          "type": "string"
+        },
+        "RepositoryDescription": {
+          "type": "string"
+        },
+        "Servers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Server"
+          }
+        }
+      },
+      "required": ["Servers"],
+      "title": "ServerRepository"
+    },
     "Server": {
       "type": "object",
       "additionalProperties": false,
@@ -29,16 +31,15 @@
           "type": "string"
         },
         "ServerAddress": {
-          "type": "string",
-          "required": true
+          "type": "string"
         },
         "ServerPort": {
           "type": "integer",
           "minimum": 1,
-          "maximum": 65535,
-          "required": true
+          "maximum": 65535
         }
       },
+      "required": ["ServerAddress", "ServerPort"],
       "title": "Server"
     }
   }
