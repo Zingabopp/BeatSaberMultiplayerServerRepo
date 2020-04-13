@@ -14,10 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Validate JSON
-        uses: Zingabopp/CITSTest@v1
-        continue-on-error: true
+        uses: Zingabopp/CITSTest@v2
         with:
           json-schema: ./ServerRepositorySchema.json
           json-file: ./CompatibleServers.json
-      - name: Debugging
-        run: ls
