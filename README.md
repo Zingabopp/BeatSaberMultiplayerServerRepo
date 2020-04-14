@@ -1,4 +1,4 @@
-# BeatSaberMultiplayerServerRepo ![JSON Validation](https://github.com/Zingabopp/BeatSaberMultiplayerServerRepo/workflows/JSON%20Validation/badge.svg)
+# BeatSaberMultiplayerServerRepo [![JSON Validation](https://github.com/Zingabopp/BeatSaberMultiplayerServerRepo/workflows/JSON%20Validation/badge.svg)](https://github.com/Zingabopp/BeatSaberMultiplayerServerRepo/actions)
 This repository provides BeatSaberMultiplayer/Lite mod with a list of ServerHubs. It was created as an easy way to make ServerHubs available to players without having to manually add the server to the mod's config file or packaging the server as a default in a new version of the mod. Players that have a repository included in their config file will see the ServerHubs in the repo (almost) immediately after they are added. The CompatibleServers repository is include in Beat Saber Multiplayer Lite by default.
 
 # Getting Your ServerHub Added/Changed/Deleted
