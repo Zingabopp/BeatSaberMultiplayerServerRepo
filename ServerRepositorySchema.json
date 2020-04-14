@@ -25,7 +25,7 @@
     },
     "Server": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "properties": {
         "ServerName": {
           "type": "string"
