@@ -14,8 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Validate JSON
-        uses: Zingabopp/CITSTest@v5
+        uses: Zingabopp/CITSTest@v6
         with:
           json-schema: ./ServerRepositorySchema.json
           json-file: ./CompatibleServers.json
-          use-draft: draft-06
