@@ -88,5 +88,11 @@
           "ServerAddress": "rj2ki2.gtxcn.com",
           "ServerPort": 3700
       }
+
+      {
+          "ServerName": "Uk Aceadam Hub",
+          "ServerAddress": "adamace.uk.to",
+          "ServerPort": 3700
+      }
   ]
 }
