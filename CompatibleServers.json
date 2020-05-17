@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Zingabopp/BeatSaberMultiplayerServerRepo/master/ServerRepositorySchema.json",
+  "$schema": "https://zingabopp.github.io/BeatSaberMultiplayerServerRepo/ServerRepositorySchema.json",
   "RepositoryName": "Default Multiplayer/Lite Servers",
   "RepositoryDescription": "A collection of ServerHubs listed by default in the Beat Saber Multiplayer/Lite mods.",
   "Servers": [
