@@ -4,7 +4,7 @@
   "RepositoryDescription": "A collection of ServerHubs listed by default in the Beat Saber Multiplayer/Lite mods.",
   "Servers": [
        {
-          "ServerName": "LedgendODST - Germany | BS",
+          "ServerName": "LedgendODST Server - Germany | BS",
           "ServerAddress": "185.107.96.88",
           "ServerPort": 3700
       },
