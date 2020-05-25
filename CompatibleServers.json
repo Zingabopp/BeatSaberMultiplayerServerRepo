@@ -99,6 +99,11 @@
           "ServerPort": 3700
       },
       {
+          "ServerName": "CN_江西电信-bowww",
+          "ServerAddress": "emmm.ml",
+          "ServerPort": 3700
+      },
+      {
           "ServerName": "Local",
           "ServerAddress": "127.0.0.1",
           "ServerPort": 3700
