@@ -99,11 +99,6 @@
           "ServerPort": 3700
       },
       {
-          "ServerName": "CN_江西电信-bowww",
-          "ServerAddress": "emmm.ml",
-          "ServerPort": 3700
-      },
-      {
           "ServerName": "Tesseract Server",
           "ServerAddress": "bs.tesseract.fun",
           "ServerPort": 3700
