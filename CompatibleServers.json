@@ -102,11 +102,6 @@
           "ServerName": "Tesseract Server",
           "ServerAddress": "bs.tesseract.fun",
           "ServerPort": 3700
-      },
-      {
-          "ServerName": "Local",
-          "ServerAddress": "127.0.0.1",
-          "ServerPort": 3700
       }
   ]
 }
