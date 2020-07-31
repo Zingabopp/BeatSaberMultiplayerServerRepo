@@ -102,11 +102,6 @@
           "ServerName": "Tesseract Server",
           "ServerAddress": "bs.tesseract.fun",
           "ServerPort": 3700
-      },
-      {
-          "ServerName": "[ID] Peladen Mentega Goreng",
-          "ServerAddress": "bs.sena.dev",
-          "ServerPort": 3700
       }
   ]
 }
