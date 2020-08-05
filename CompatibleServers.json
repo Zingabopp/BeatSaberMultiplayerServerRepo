@@ -54,6 +54,11 @@
           "ServerPort": 3700
       },
       {
+          "ServerName": "CN_上海多线-WGzeyu",
+          "ServerAddress": "cnali.gtxcn.com",
+          "ServerPort": 3770
+      },
+      {
           "ServerName": "CN_河南电信-张慧明",
           "ServerAddress": "zhm233.top",
           "ServerPort": 3700
