@@ -113,5 +113,10 @@
 	  "ServerAddress": "bs.zef.sh",
 	  "ServerPort": 3700
       }
+      {
+	  "ServerName": "Aasilandia [FIN]",
+	  "ServerAddress": "aasilandia.aasikki.com",
+	  "ServerPort": 3700
+      }
   ]
 }
