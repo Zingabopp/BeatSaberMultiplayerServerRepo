@@ -3,6 +3,11 @@
   "RepositoryName": "Default Multiplayer/Lite Servers",
   "RepositoryDescription": "A collection of ServerHubs listed by default in the Beat Saber Multiplayer/Lite mods.",
   "Servers": [
+        {
+          "ServerName": "Kyuubii's Server",
+          "ServerAddress": "134.255.220.100",
+          "ServerPort": 3700
+      },
        {
           "ServerName": "LedgendODST Server - Germany | BS",
           "ServerAddress": "185.107.96.88",
