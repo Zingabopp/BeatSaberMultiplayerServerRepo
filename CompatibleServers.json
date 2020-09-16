@@ -29,11 +29,6 @@
           "ServerPort": 3700
       },
       {
-          "ServerName": "Tiger's Hub",
-          "ServerAddress": "bs.tigersserver.xyz",
-          "ServerPort": 3700
-      },
-      {
           "ServerName": "TreasureHunters.nz",
           "ServerAddress": "treasurehunters.nz",
           "ServerPort": 3700
