@@ -5,8 +5,8 @@
   "Servers": [
        {
           "ServerName": "LedgendODST Server - Germany | BS",
-          "ServerAddress": "185.107.96.88",
-          "ServerPort": 3700
+          "ServerAddress": "134.255.220.100",
+          "ServerPort": 3711
       },
       {
           "ServerName": "Oceania Server Group - Sydney | BS",
