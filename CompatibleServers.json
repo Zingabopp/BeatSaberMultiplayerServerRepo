@@ -122,6 +122,11 @@
 	  "ServerName": "[FR] Tomheberg BS-MP Hub",
 	  "ServerAddress": "beatsaber.tomheberg.fr",
 	  "ServerPort": 3700
-      }
+      },
+      {
+        "ServerName": "[AU] AU-GN.com.au - Melbourne",
+        "ServerAddress": "game.wam.cloud",
+        "ServerPort": 3700
+        }
   ]
 }
