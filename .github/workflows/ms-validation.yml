@@ -3,10 +3,10 @@ name: JSON Validation
 on:
   push:
     branches: [ master ]
-    paths: '**.json'
+    paths: 'MasterServers.json'
   pull_request:
     branches: [ master ]
-    paths: '**.json'
+    paths: 'MasterServers.json'
 
 jobs:
   Validate:
