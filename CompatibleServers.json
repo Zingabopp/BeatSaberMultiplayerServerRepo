@@ -127,6 +127,6 @@
         "ServerName": "[AU] AU-GN.com.au - Melbourne",
         "ServerAddress": "game.wam.cloud",
         "ServerPort": 3700
-        }
+      }
   ]
 }
