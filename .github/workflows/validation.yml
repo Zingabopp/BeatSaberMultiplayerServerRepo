@@ -1,5 +1,5 @@
 
-name: JSON Validation
+name: CompatibleServers Validation
 
 on:
   push:
