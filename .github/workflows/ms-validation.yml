@@ -1,13 +1,12 @@
-
-name: CompatibleServers Validation
+name: MasterServers Validation
 
 on:
   push:
     branches: [ master ]
-    paths: 'CompatibleServers.json'
+    paths: 'MasterServers.json'
   pull_request:
     branches: [ master ]
-    paths: 'CompatibleServers.json'
+    paths: 'MasterServers.json'
 
 jobs:
   Validate:
@@ -18,4 +17,4 @@ jobs:
         uses: Zingabopp/JsonValidate-Action@v1
         with:
           json-schema: ServerRepositorySchema.json
-          json-file: CompatibleServers.json
+          json-file: MasterServers.json

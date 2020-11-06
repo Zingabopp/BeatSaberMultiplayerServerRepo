@@ -1,0 +1,8 @@
+{
+  "$schema": "https://zingabopp.github.io/BeatSaberMultiplayerServerRepo/ServerRepositorySchema.json",
+  "RepositoryName": "Beat Saber Master Servers",
+  "RepositoryDescription": "A collection of master servers for Beat Saber 1.12.0+ multiplayer.",
+  "Servers": [
+
+  ]
+}
