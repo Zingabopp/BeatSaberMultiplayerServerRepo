@@ -1,4 +1,4 @@
-name: MasterServer Validation
+name: MasterServers Validation
 
 on:
   push:
