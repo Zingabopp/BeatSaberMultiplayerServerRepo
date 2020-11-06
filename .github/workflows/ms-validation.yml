@@ -1,0 +1,20 @@
+name: JSON Validation
+
+on:
+  push:
+    branches: [ master ]
+    paths: '**.json'
+  pull_request:
+    branches: [ master ]
+    paths: '**.json'
+
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: Zingabopp/JsonValidate-Action@v1
+        with:
+          json-schema: ServerRepositorySchema.json
+          json-file: MasterServers.json
