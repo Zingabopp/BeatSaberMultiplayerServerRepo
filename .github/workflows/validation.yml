@@ -4,7 +4,9 @@ name: CompatibleServers Validation
 on:
   push:
     branches: [ master ]
-    paths: 'CompatibleServers.json'
+    paths: 
+      - 'CompatibleServers.json'
+      - '.github/workflows/validation.yml'
   pull_request:
     branches: [ master ]
     paths: 'CompatibleServers.json'
