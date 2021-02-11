@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Validate JSON
-        uses: Zingabopp/JsonValidate-Action@v1
+        uses: Zingabopp/JsonValidate-Action@master
         with:
-          json-schema: ServerRepositorySchema.json
           json-file: CompatibleServers.json
+          allow-online-fetch: true
